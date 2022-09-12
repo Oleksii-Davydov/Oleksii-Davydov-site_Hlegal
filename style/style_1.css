@@ -1,0 +1,42 @@
+.card {
+    max-width: 300px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.mw-300 {
+    max-width: 300px;
+}
+
+.card_header {
+    margin-bottom: 10px;
+
+    /* font-size: 20px; */
+}
+
+.card_body {
+    margin-bottom: 20px;
+
+    /* font-size: 14px; */
+}
+
+.card_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_btn {
+    padding: 5px 10px;
+
+    /* outline: none;
+    border: 1px solid lightblue;
+    border-radius: 5px; */
+}
+
+.card_btn-red {
+    /* background-color: lightcoral;
+    color: #fff; */
+}
+
