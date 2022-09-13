@@ -97,7 +97,8 @@
     color: #B3B3BA;
 }
 
-.header_number_hone {
+.header_number_link {
+    text-decoration: none;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -210,9 +211,6 @@
 
 }
 
-
-
-
 .header_tex_box {
     position: absolute;
     top: 50%;
@@ -319,7 +317,7 @@
         border-radius: 50%;
     }
 
-    .header_logo {
+    .logo {
         content: url(../img/Logo+.svg);
     }
 
@@ -1175,8 +1173,8 @@
     text-align: center;
 }
 
-.contakt {
-    margin-top: 10px;
+.footer_number_link {
+    text-decoration: none;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -1185,6 +1183,12 @@
     text-align: center;
     color: #46466E;
 }
+
+.footer_number {
+    text-align: center;
+    margin-top: 10px;
+}
+
 
 .email {
     display: block;
@@ -1231,12 +1235,13 @@
         padding: 0;
     }
 
-    .contakt {
+    .header_number {
+
         margin-top: 0;
 
     }
 
-    .contakt::after {
+    .footer_number::after {
         content: "";
         margin: 10px;
         display: inline-flex;
@@ -1248,7 +1253,7 @@
     }
 
 
-    .contakt::before {
+    .footer_number::before {
         content: "";
         margin: 10px;
         display: inline-flex;
@@ -1291,7 +1296,7 @@
     .footer_box_left {
         width: 50%;
     }
-    
+
     .address_footer::after {
         content: "";
         margin: 10px;
